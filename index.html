@@ -1,82 +1,139 @@
-<html>
-    <head>
-         <title>portfolio</title>
-         <meta charset="utf-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1">
-         <link rel="stylesheet" href="index.css">
-    </head>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
 
-    <body>
+        <nav class="menu" id="topo">
+
+            <div class="nome">
+                <h1>Rhayssa Rosa</h1>
+            </div>
+
+            <div class="lista-menu">
+                <ul>
+                    <li class="item-menu"><a href="#inicio" class="link-menu">Início</a></li>
+                    <li class="item-menu"><a href="#sobre" class="link-menu">Sobre</a></li>
+                    <li class="item-menu"><a href="#projeto" class="link-menu">Projeto</a></li>
+                    <li class="item-menu"><a href="#contato" class="link-menu">Contato</a></li>
+                </ul>
+            </div>
+            
+        </nav>
         
-        <header>
-            <section id="start">
-                <img id="foto" src="https://m.media-amazon.com/images/I/21w-LXv61bL._UXNaN_FMjpg_QL85_.jpg" alt="">
-                <h1>TITULO</h1>
-            </section>
-            <ul>
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="https://images.pexels.com/photos/2575835/pexels-photo-2575835.jpeg?cs=srgb&dl=pexels-nastyasensei-2575835.jpg&fm=jpg" width="200px" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="https://i.pinimg.com/236x/c2/7f/15/c27f1526875145441ae5d3331c24ca3b.jpg" width="200px" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="https://i.pinimg.com/originals/58/f7/58/58f758bd792f532c71b9b5a1239b78af.png" width="200px" class="d-block w-100" alt="...">
-                      </div>
-                    </div>
-                  </div>
-                <li>HOME</li>
-                <li>ABOUT ME</li>
-                <li>CONTACT ME</li>
-            </ul>
+    </header>
 
-        </header>
+    <main>
+        <div id="inicio">
+            
+                <h1 class="ini">Olá! <br> Seja bem-vindo.</h1>
 
-        <main>
-            <section id="home">
-                <h1>tittle</h1>
-                <p>You’re my true north when I’m headed south
-                    My constant solid ground
-                    You are my lantern in the night
-                    When I’m twisted up and shaken
-                    You’re the one I put my faith in
-                    Yeah, you’re the reason I survive
+            
+            <img src="assets/background.jpg" alt="inicio">
+        </div>
+
+        <section id="gif">
+            <img src="assets/start.gif" alt="gif">
+        </section>
+
+        <section id="sobre" class="container">
+            <h1 id="sobremim">Sobre Mim</h1>
+            <div>
+                <img src="assets/minha-foto.jpeg" alt="Minha foto">
+                <h1>Rhayssa Rosa</h1>
+
+            </div>
+            <p>Me chamo Rhayssa, estudo Ciência da Computação na Universidade de Vila Velha (UVV). Nasci e cresci em uma pequena cidade do extremo sul da Bahia, mas mudei recentemente para o estado do Espírito Santo, para estudar e crescer profissionalmente. O motivo pelo qual escolhi este curso, se deve ao fato de gostar de matemática e principalmente pelo meu interesse na área tecnológica.</p>
+            
+        </section>
+
+        <section id="projeto" class="container">
+
+            <h1 id="titulo">Projetos</h1>
+
+            <div id="proj">
+                <div class="projetoss">
+                    <a href="https://scratch.mit.edu/projects/882462998/">
+                        <img src="assets/jogo.jpeg" alt="">
+                        
+                    </a>
+
+                    <p>Bibi fuga é um jogo desenvolvido no Scratch, feito como dever da matéria de Introdução a Ciência da Computação, tantantan pelo professor Abrantes Araújo.</p>
+                </div>
+
+                <div class="projetoss">
                     
-                    You keep me steady when the sky is falling
-                    And I’ll keep steady after you
-                    I’ll carry on when my strength is failing
-                    Take heart ‘cause you’re with me
-                    So let the stars drop, whatever comes
-                    I’ll be ready, you keep me steady
-                    You keep me steady
-                    
-                    You’re a river, you cover me
-                    When the bombs fall, you’re the cavalry
-                    Somehow you’re always standing right by my side
-                    So no matter what I will be facing
-                    I will not be over-taken
-                    And you are the only reason why
-                    
-                    You’re my hiding place, my home
-                    And fear cannot invade these four walls
-                    I need you near, I need you here
-                    You keep me steady
-                    You keep me steady</p>
+                        <img src="assets/menc.jpg" alt="">
+                    <p>Participei 3 vezes da Olimpíada Brasileira de Matemática das Escolas Públicas (OBMEP), onde fui comtemplada com Menção Honrosa nas 3 vezes.</p>
+                   
+                </div>
 
-            </section>
+                <div class="projetoss">
+                        <img src="assets/cs50.jpg" alt="">
+                    <p>Programação em C. Matéria de Introdução a Ciência da Computação da Universidade Harvard, CS50: Introduction to Computer Science. </p>
+                </div>
 
-            <section>
+                <div class="projetoss">
+                        <img src="assets/projetofuturo.jpg" alt="projeto futuro">
+                        <p>Projeto futuro...</p>
+                </div>
                 
+                </div>
 
-            </section>
+            </div>
 
-        </main>
+        </section>
 
-        <footer>
+        <section id="contato" class="container">
 
-        </footer>
+            <h1 class="titulo">Contato</h1>
+            <p>Obrigada por ter chegado até aqui. <br>Fique a vontade para entrar em contato, caso queira.</p>
+      
+            <img src="assets/gatinho.gif" alt="gatinho" id="gatinho">
+            <div id="flex">
+                <div class="contatos">
+                     <a href="https://github.com/RhayssaR/repo.git" class="ctt">
+                         <img src="assets/GitHub.jpeg" alt="Github">
+                         <h3>GitHub</h3>
+                     </a>
+                 </div>
 
-    </body>
+                 <div class="contatos">
+                     <a href="http://linkedin.com/in/rhayssa-rosa-74ab99296" class="ctt">
+                         <img src="assets/linkedinlogo.jpeg" alt="Linkedin">
+                         <h3>Linkedin</h3>
+                     </a>
+                 </div>
+
+                 <div class="contatos">
+                     <a href="mailto:rhayssarosass@gmail.com" class="ctt">
+                         <img src="assets/email.png" alt="email">
+                        <h3>E-mail</h3>
+                     </a>               
+                 </div>
+             </div>
+
+            </div>
+
+        </section>
+
+
+        <div class="final">
+            <a href="#topo"><img src="assets/seta.png" alt=""></a>
+        </div>
+    </main>
+
+    <footer>
+
+        <p>Designed by Rhayssa</p>
+
+    </footer>
+    
+</body>
 </html>
